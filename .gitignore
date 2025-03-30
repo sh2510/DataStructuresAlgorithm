@@ -1,38 +1,25 @@
+# IntelliJ IDEA
+.idea/
+
+# Maven target directory (compiled classes and artifacts)
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
+# Java class files
+*.class
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
+# Eclipse project files
 .project
-.settings
-.springBeans
-.sts4-cache
+.classpath
+.settings/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# NetBeans project files
+nbproject/
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# OS-specific files
 .DS_Store
+Thumbs.db
+
+# Maven wrapper files
+.mvn/
+!mvnw
+!mvnw.cmd
